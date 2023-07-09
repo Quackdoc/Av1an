@@ -76,4 +76,4 @@ jobs:
           automatic_release_tag: latest
           prerelease: true
           draft: false
-          files: target/release/av1an.exe
+          files: target/debug/av1an.exe
