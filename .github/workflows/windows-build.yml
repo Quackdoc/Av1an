@@ -1,5 +1,6 @@
 name: Build Av1an (Windows x64)
 on:
+  workflow_dispatch:
   push:
     branches:
       - 'master'
