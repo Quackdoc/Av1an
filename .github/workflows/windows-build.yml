@@ -1,6 +1,5 @@
 name: Build Av1an (Windows x64)
 on:
-  workflow_dispatch:
   push:
     branches:
       - 'master'
@@ -67,7 +66,7 @@ jobs:
       - name: Av1an build
         env:
           CARGO_TERM_COLOR: always
-        run: cargo build -rv
+        run: cargo build
 
       - name: Create prerelease
         uses: marvinpinto/action-automatic-releases@v1.2.1
